@@ -7,15 +7,11 @@ Proyect Regression
  -In this report we try to answer the question : "Is automatic or manual transmission better for mpg ?". To answer this question we used a dataset from the 1974 Motor Trend US magazine, and ran some statistical tests and a regression analysis. 
  
   
-  ## Cleaning data
-  
- @@ -46,7 +46,7 @@ We then plot the relationships between all the variables of the dataset (see Fig
   
   ## Inference
   
  -We may also run a some tests to compare the mpg means between automatic and manual transmissions.
- +We may also run some tests to compare the mpg means between automatic and manual transmissions.
-  
+
   ### T-test
   
  @@ -79,28 +79,31 @@ model.init <- step(model.all, direction = "backward", k = log(n))
@@ -48,7 +44,7 @@ Proyect Regression
   ## Residuals and diagnostics
   
   ### Residual analysis
- @@ -154,7 +157,7 @@ title(main = "Mpg by transmission type", xlab = "am", ylab = "mpg")
+  title(main = "Mpg by transmission type", xlab = "am", ylab = "mpg")
   pairs(mtcars, panel = panel.smooth, main = "Pairs graph for MTCars")
   ```
   
